@@ -1,5 +1,6 @@
 * {
   color: #3C373B;
+  background-color: rgb(248, 246, 243);
 }
 
 h1 {
@@ -24,6 +25,7 @@ p {
 }
 
 img {
+  border: 4px solid #3C373B;
   border-radius: 10px;
 }
 
@@ -40,7 +42,7 @@ img {
   margin: 0 auto;
 }
 
-.container header nav a {
+header nav a {
   margin: 0 10px;
   border: 1px solid lightgray;
   padding: 20px;
@@ -52,13 +54,17 @@ img {
   background: #F87B99;
 }
 
-.container header nav a:hover {
+header nav a:hover {
   background: white;
   color: pink;
 }
 
-.about-section {
+.content-row img {
   margin-top: 20px;
+}
+
+h2.about-section {
+  margin: 0px;
 }
 
 .contact-section {
@@ -66,13 +72,22 @@ img {
   padding: 20px 0;
 }
 
-.contact-section h2 {
-  padding: 0;
-  margin: 0 0 10px 0;
+h2.contact-section {
+  text-align: center;
+  padding: 20px;
 }
 
 address {
-  line-height: 2;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.email {
+  padding-bottom: 10px;
+}
+
+.phone {
+  padding-bottom: 10px;
 }
 
 footer {
@@ -81,7 +96,8 @@ footer {
   border-top: 1px dashed white;
 }
 
-footer .footer-content { 
+.footer-content { 
+  background-color: #F87B99;
   margin: 0 auto; 
   width: 600px;
 }
@@ -96,9 +112,13 @@ footer nav {
 }
 
 footer a {
-  margin: 10px;
-  color: black;
-  text-decoration: underline;
+  margin: 0 10px;
+  padding: 5px;
+  display: inline-block;
+  color: #3C373B;
+  text-decoration: none;
+  margin-bottom: 10px;
+  background: #F87B99;
 }
 
 footer nav a:first-child {
